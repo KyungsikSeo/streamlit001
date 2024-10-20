@@ -1,4 +1,9 @@
+plotly
 pandas
 streamlit
-streamlit_folium
+yfinance
+matplotlib
 folium
+openpyxl
+pyxlsb
+xlsxwriter
