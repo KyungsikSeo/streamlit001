@@ -27,9 +27,10 @@ from pyxlsb import open_workbook as open_xlsb
 from io import BytesIO
 from xlsxwriter import Workbook
 
-st.title('🍰🏞️ 팅이가 추천하는 맛집! 숙박! 탐방 지도! 👍')
+st.title('🍰먹고, 😎놀고, ✈️여행하는')
+st.title(' 팅이의 탐방 지도! 👍')
 st.subheader("Tingi's World Map!")
-st.subheader('원하는 조건을 선택하여 보다 쉽게 검색해봐요! 😎', anchor=None, help=None, divider=False)
+#st.subheader('원하는 조건을 선택하여 보다 쉽게 검색해봐요! 😎', anchor=None, help=None, divider=False)
 
 info=st.info('사이드 바에서 원하는 조건을 입력하세요!',  icon='🔍')
 #if ((options is not None) or (state_name_options is not None) or (town_name_options is not None )):
