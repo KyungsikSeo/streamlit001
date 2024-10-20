@@ -5,7 +5,7 @@ st.set_page_config(
     page_icon="👋",
 )
 
-st.write("# Welcome to Streamlit! 👋")
+st.write("# Tingi's Korean Restaurant Map! 👋")
 
 st.sidebar.success("Select a demo above.")
 
