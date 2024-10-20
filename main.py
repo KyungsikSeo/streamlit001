@@ -235,15 +235,15 @@ if len(town_name_options)==0:
     town_name_options=''
 
 
-options_str=f'{options}'+'포함,'
-st.info(f'📜 {options_str} {state_name_options} {town_name_options} 위치의 숙박업소  {show_data_count_bar}개 의 정보를 로딩합니다.!')
-st.write(filter_data.head(show_data_count_bar))
-
-df_xlsx = to_excel(process_down_data(filter_data.head(show_data_count_bar)))
-
-st.sidebar.download_button(label='📥 Download Current Result',
-                                data=df_xlsx ,
-                                file_name= 'df_test.xlsx')
+# options_str=f'{options}'+'포함,'
+# st.info(f'📜 {options_str} {state_name_options} {town_name_options} 위치의 숙박업소  {show_data_count_bar}개 의 정보를 로딩합니다.!')
+# st.write(filter_data.head(show_data_count_bar))
+#
+# df_xlsx = to_excel(process_down_data(filter_data.head(show_data_count_bar)))
+#
+# st.sidebar.download_button(label='📥 Download Current Result',
+#                                 data=df_xlsx ,
+#                                 file_name= 'df_test.xlsx')
 
 # last_execl_save_data
 
