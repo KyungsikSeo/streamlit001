@@ -1,3 +1,18 @@
+# icons = ["glyphicon-cloud", "glyphicon-star", "glyphicon-home", "glyphicon-tree-conifer",
+#          "glyphicon-tree-deciduous", "glyphicon-fire", "glyphicon-flash", "glyphicon-road",
+#          "glyphicon-cutlery", "glyphicon-plane", "glyphicon-phone", "glyphicon-globe",
+#          "glyphicon-heart", "glyphicon-info-sign", "glyphicon-exclamation-sign", 
+#          "glyphicon-thumbs-up", "glyphicon-thumbs-down", "glyphicon-fullscreen", 
+#          "glyphicon-screenshot", "glyphicon-cloud-upload", "glyphicon-cloud-download"]
+#colors = ‘red’, ‘blue’, ‘green’, ‘purple’, ‘orange’, ‘darkred’, ’lightred’, ‘beige’, ‘darkblue’, ‘darkgreen’, ‘cadetblue’, ‘darkpurple’, ‘white’, ‘pink’, ‘lightblue’, ‘lightgreen’, ‘gray’, ‘black’, ‘lightgray’
+
+# marker = folium.Marker(
+#     [49.61068, 6.13127],
+#     popup="<a href=https://fr.wikipedia.org/wiki/Place_Guillaume_II>Place Guillaume II</a>",
+#     tooltip=tooltip
+# )
+
+# https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app
 
 import plotly.graph_objects as go
 import pandas as pd
@@ -12,8 +27,9 @@ from pyxlsb import open_workbook as open_xlsb
 from io import BytesIO
 from xlsxwriter import Workbook
 
-st.title('Dynamic Busan ☀️')
-st.subheader('원하는 조건의 부산 숙박업소를 쉽게 검색해봐요! 😎', anchor=None, help=None, divider=False)
+st.title('🍰🏞️ 팅이가 추천하는 맛집! 숙박! 탐방 지도! 👍')
+st.subheader("Tingi's World Map!")
+st.subheader('원하는 조건을 선택하여 보다 쉽게 검색해봐요! 😎', anchor=None, help=None, divider=False)
 
 info=st.info('사이드 바에서 원하는 조건을 입력하세요!',  icon='🔍')
 #if ((options is not None) or (state_name_options is not None) or (town_name_options is not None )):
@@ -232,8 +248,8 @@ st.sidebar.download_button(label='📥 Download Current Result',
 
 
 # 마지막 사이드바
-st.sidebar.subheader('🤖QnA Bot ↓ ')
-st.sidebar.subheader(' https://ai-poet-seon.streamlit.app/ ')
-st.sidebar.header('More info')
-st.sidebar.subheader('✉️ sunkyoung.dev@gmail.com')
-st.sidebar.subheader('👩🏻‍💻 GitHub : sunk-dev')
+st.sidebar.header('🏖️ Naver Blog Home ↓')
+st.sidebar.subheader('https://blog.naver.com/tingi40')
+st.sidebar.header('✉️ Tingi e-mail')
+st.sidebar.subheader('jlovemelove@naver.com')
+#st.sidebar.subheader('👩🏻‍💻 GitHub : sunk-dev')
